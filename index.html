@@ -253,7 +253,7 @@
             background-position-x: 95%;
             background-position-y: 50%;
             background-repeat: no-repeat;
-            border-radius: .5rem;
+            border-radius: 0;
             width: 100%;
             width: 100%;
             font-size: 1em;
@@ -319,7 +319,7 @@
             width: 60%;
             height: 50px;
             background-color: #000000;
-            border-radius: .5rem;
+            border-radius: 0;
             border: none;
             color: #fff;
             font-size: 1em;
@@ -353,7 +353,8 @@
             font-size: 16px;
             color: #000;
             box-shadow: none;
-            text-align: left
+            text-align: left;
+            display:none;
         }
 
         .buttons #cancel:hover {
@@ -430,10 +431,10 @@
 
         #attributeList ul li input {
             height: 50px;
-            width: 70%;
-            border-radius: .5rem;
+            width: 100%;
+            border-radius: 0;
             text-indent: 20px;
-            background-color: #E5E5E5 !important;
+            background-color: #F1F2F4 !important;
             background-image: none !important;
             color: #6A7581
         }
@@ -466,7 +467,7 @@
             height: auto;
             background-color: #E5E5E5;
             color: #6A7581;
-            border-radius: .5rem
+            border-radius: 0
         }
 
         #attributeList ul li .attrEntry .verificationControlContent .sendCode:hover,
@@ -499,7 +500,7 @@
             background-color: #fff;
             color: #000;
             margin-right: 5px;
-            border-radius: .0
+            border-radius: 0;
         }
 
         #attributeList ul li .attrEntry .verificationControlContent .verifyCode {
@@ -509,7 +510,7 @@
             background-color: #fff;
             color: #000;
             margin-right: 5px;
-            border-radius: .5rem
+            border-radius: 0;
         }
 
         #attributeList ul li .attrEntry .verify .verifyButton:hover {
@@ -666,7 +667,7 @@
             #attributeVerification #attributeList ul li input {
                 width: 60%;
                 height: 40px;
-                border-radius: .5rem;
+                border-radius: 0;
                 border: 1px solid #605e5c;
                 text-indent: 10px
             }
@@ -731,7 +732,7 @@
                 border: none;
                 color: #fff;
                 background-color: #496ad8;
-                border-radius: .5rem;
+                border-radius: 0;
                 font-size: 1em;
                 box-shadow: 0 0 40px 2px #dae1f7;
                 width: 30%;
@@ -814,7 +815,7 @@
         .captcha-audio-small:focus,
         .captcha-refresh-icon:focus,
         .captcha-visual-icon:focus {
-            border: 2px solid #000
+            border: none;
         }
 
         .captcha-control-buttons {
@@ -989,6 +990,12 @@
     <style>
         /* Following are generated styles via gulp. */
         /* inject: css */
+        .intro p {
+           color: #000;
+           font-size: 16px;
+           margin: 26px 0;
+ 
+        }
         .unified_container .row .panel-default {
             padding: 40px 30px;
             margin-top: auto;
@@ -1068,7 +1075,7 @@
             background-image: none;
             background-color: #296ec6;
             border: none;
-            border-radius: .5rem;
+            border-radius: 0;
             cursor: pointer;
             display: inline-block;
             font-size: 1em;
@@ -1131,14 +1138,14 @@
         }
 
         .unified_container .row .panel-default #api .localAccount .entry .entry-item input:focus {
-            border: 2px solid #000
+            border: none;
         }
 
         .unified_container .row .panel-default #api .localAccount .entry .entry-item input {
             outline: 0;
             background-color: #fff !important;
             background-image: none !important;
-            border-radius: .5rem !important;
+            border-radius: 0 !important;
             color: #555;
             display: inline-block;
             font-size: 1em;
@@ -1221,7 +1228,7 @@
         }
 
         .unified_container .row .panel-default #api .localAccount .create #createAccount {
-            border-radius: .5rem;
+            border-radius: 0;
             display: inline-block;
             font-size: 1em;
             font-weight: 400;
@@ -1264,9 +1271,6 @@
             max-width: 380px;
             border: 1px solid #605e5c;
             background-color: #fff;
-            -moz-border-radius: .5rem;
-            -webkit-border-radius: .5rem;
-            border-radius: .5rem;
             margin-top: 10px
         }
 
@@ -1416,7 +1420,7 @@
                 <div class="panel panel-default">
                     <div class="panel-body">
                         <img class="companyLogo" data-tenant-branding-logo="true"
-                            src="https://akibisani13.github.io/b2c.demo/Norton-Motorcycles-Logo-1.jpg"
+                            src="https://nmukdev.b2clogin.com/static/tenant/templates/images/logo.svg"
                             alt="Company Logo">
                         <div id="api" role="main">
                           
