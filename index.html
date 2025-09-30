@@ -171,11 +171,12 @@
 
         input,
         select {
-            border: 1px solid #605e5c
+            border: 1px solid #F1F2F4;
+            background: #F1F2F4;
         }
 
         input::placeholder {
-            color: #6a6a6a;
+            color: #6A7581;
             opacity: 1
         }
 
@@ -234,11 +235,10 @@
         }
 
         #simplemodal-container .simplemodal-data {
-            padding: 5px 8px;
+            padding: 48px;
             overflow: hidden;
             background-color: #fff;
-            border-radius: 3px;
-            font-style: italic
+            border-radius: 0;
         }
 
         #LocalAccountSigninEmailExchange,
@@ -247,7 +247,7 @@
         #SignInWithLogonNameExchange,
         #SignUpWithLogonEmailExchange,
         #SignUpWithLogonNameExchange {
-            background-color: #296ec6;
+            background-color: #fff;
             background-image: url(none);
             background-size: 10%;
             background-position-x: 95%;
@@ -266,69 +266,70 @@
         #SignInWithLogonNameExchange:hover,
         #SignUpWithLogonEmailExchange:hover,
         #SignUpWithLogonNameExchange:hover {
-            background-color: #1662c7 !important
+            background-color: #b2b2b2 !important
         }
 
         #AmazonExchange:hover {
-            background-color: #36474f !important
+            background-color: #b2b2b2 !important
         }
 
         #FacebookExchange:hover {
-            background-color: #3b5595 !important
+            background-color: #b2b2b2 !important
         }
 
         #GitHubExchange:hover {
-            background-color: #0f0f0f !important
+            background-color: #b2b2b2 !important
         }
 
         #AppleExchange:hover,
         #AppleManagedExchange:hover {
-            background-color: #0f0f0f !important
+            background-color: #000000 !important
         }
 
         #GoogleExchange:hover {
-            background-color: #c64a29 !important
+            background-color: #000000 !important
         }
 
         #LinkedInExchange:hover {
-            background-color: #0274b3 !important
+            background-color: #000000 !important
         }
 
         #MicrosoftAccountExchange:hover {
-            background-color: #01a4ef !important
+            background-color: #000000 !important
         }
 
         #QQExchange:hover {
-            background-color: #1a97df !important
+            background-color: #000000 !important
         }
 
         #TwitterExchange:hover {
-            background-color: #1da1f2 !important
+            background-color: #000000 !important
         }
 
         #WeChatExchange:hover {
-            background-color: #4cc522 !important
+            background-color: #000000 !important
         }
 
         #WeiboExchange:hover {
-            background-color: #e81123 !important
+            background-color: #000000 !important
         }
 
         .buttons button {
             margin: 0 auto;
             width: 60%;
             height: 50px;
-            background-color: #296ec6;
+            background-color: #000000;
             border-radius: .5rem;
             border: none;
             color: #fff;
             font-size: 1em;
-            margin-top: 10px
+            margin-top: 10px;
+            padding: 16px;
         }
 
         .buttons button:hover {
-            background-color: #1662c7;
-            border-color: #204d74
+            background-color: #000000;
+            border-color: #000000
         }
 
         .buttons button[aria-disabled=true] {
@@ -343,14 +344,14 @@
             padding: 0;
             margin-left: auto;
             background: 0 0;
-            border: 0;
+            border: 1px solid #000;
             width: inherit;
             position: absolute;
-            background-color: transparent;
+            background-color: #000;
             top: 2px;
             left: 15px;
-            font-size: 1em;
-            color: #505050;
+            font-size: 16px;
+            color: #000;
             box-shadow: none;
             text-align: left
         }
@@ -432,9 +433,9 @@
             width: 70%;
             border-radius: .5rem;
             text-indent: 20px;
-            background-color: #fff !important;
+            background-color: #E5E5E5 !important;
             background-image: none !important;
-            color: #555
+            color: #6A7581
         }
 
         #attributeList ul li input::-webkit-input-placeholder {
@@ -463,14 +464,14 @@
             width: 60%;
             min-height: 50px;
             height: auto;
-            background-color: #296ec6;
-            color: #fff;
+            background-color: #E5E5E5;
+            color: #6A7581;
             border-radius: .5rem
         }
 
         #attributeList ul li .attrEntry .verificationControlContent .sendCode:hover,
         #attributeList ul li .attrEntry .verify .sendButton[id$=ver_but_send]:hover {
-            background-color: #1662c7
+            background-color: #e5e5e5
         }
 
         @media screen and (-ms-high-contrast:active) {
@@ -495,48 +496,48 @@
             width: inherit;
             padding: 0 20px;
             height: 50px;
-            background-color: #296ec6;
-            color: #fff;
+            background-color: #fff;
+            color: #000;
             margin-right: 5px;
-            border-radius: .5rem
+            border-radius: .0
         }
 
         #attributeList ul li .attrEntry .verificationControlContent .verifyCode {
             width: inherit;
             padding: 0 20px;
             height: 50px;
-            background-color: #296ec6;
-            color: #fff;
+            background-color: #fff;
+            color: #000;
             margin-right: 5px;
             border-radius: .5rem
         }
 
         #attributeList ul li .attrEntry .verify .verifyButton:hover {
-            background-color: #1662c7
+            background-color: #000;
         }
 
         #attributeList ul li .attrEntry .verificationControlContent .verifyCode:hover {
-            background-color: #1662c7
+            background-color: #000
         }
 
         #attributeList ul li .attrEntry .verify .sendButton[id$=ver_but_resend] {
             width: inherit;
             padding: 0 20px;
             border: 0;
-            font-size: 1em;
+            font-size: 16px;
             height: 50px;
             right: 0;
             bottom: -38px;
-            background-color: #296ec6;
-            color: #fff;
-            border-radius: .5rem
+            background-color: #fff;
+            color: #000;
+            border-radius: 0
         }
 
         #attributeList ul li .attrEntry .verificationControlContent .sendNewCode {
             width: inherit;
             padding: 0 20px;
             border: 0;
-            font-size: 1em;
+            font-size: 16px;
             height: 50px;
             right: 0;
             bottom: -38px;
@@ -685,11 +686,10 @@
                 background: 0 0;
                 border: 0;
                 color: #496ad8;
-                font-size: 1em;
+                font-size: 16px;
                 position: relative;
                 right: 0;
                 top: 60px;
-                font-size: 1.1em;
                 width: auto;
                 z-index: 1;
                 height: 20px
@@ -1406,12 +1406,20 @@
 </head>
 
 <body>
+    <div id="background_branding_container" data-tenant-branding-background-color="true">
+        <img data-tenant-branding-background="true"
+            src="https://nmukdev.b2clogin.com/static/tenant/templates/backgrounds/1-1.png" alt="Background Image">
+    </div>
     <div class="container  unified_container " role="presentation">
         <div class="row">
             <div class="col-lg-6">
                 <div class="panel panel-default">
                     <div class="panel-body">
+                        <img class="companyLogo" data-tenant-branding-logo="true"
+                            src="https://akibisani13.github.io/b2c.demo/Norton-Motorcycles-Logo-1.jpg"
+                            alt="Company Logo">
                         <div id="api" role="main">
+                          
                         </div>
                     </div>
                 </div>
